@@ -1,0 +1,7 @@
+dpw_mini:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../warehouse/warehouse.duckdb
+      threads: 1

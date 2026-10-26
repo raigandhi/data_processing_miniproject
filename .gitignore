@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt (hasil build, bisa dibuat ulang)
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# Dataset benchmark besar (600.000 baris, bisa dibuat ulang)
+data/bench/
+
+# Status checkpoint lokal
+data/watermark.json
+
+# Editor, sistem operasi, rahasia
+.vscode/
+Thumbs.db
+.env
